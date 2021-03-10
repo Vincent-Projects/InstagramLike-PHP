@@ -1,0 +1,41 @@
+/** ################################################
+  *                     Login Page
+  * ################################################ */
+#logsign-form-container { /* Modifier, enlver logsign dans tout les id et class pour tout les formulaires */
+  width: 100%;
+  height: 300px;
+}
+
+#logsign-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logsign-input-field-wrapper {
+  width: 60%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* For error
+input:focus {
+  border: 2px solid red;
+  border-radius: 4px;
+}*/
+
+.logsign-input-text {
+  position: absolute;
+  margin-top: 5px;
+  font-size: 90%;
+  opacity: 80%;
+}
+
+.logsign-input-field {
+  padding-top: 10px;
+}

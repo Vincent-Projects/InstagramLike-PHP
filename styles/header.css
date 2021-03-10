@@ -1,0 +1,124 @@
+/** ##################################################
+  *              HEADER CONTAINER
+  * ################################################## */
+header {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-border);
+  background-color: var(--surface);
+}
+
+/* Header logo */
+#header-logo-container {
+  display: flex;
+  height: 90%;
+}
+
+#header-logo-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/** ##################################################
+  *              HEADER NAVIGATION BAR
+  * ################################################## */
+#header-nav-bar-container {
+  display: flex;
+  width: 35%;
+  height: 95%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* The search bar */
+#header-search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+#header-search-bar-input {
+  display: flex;
+  height: 35%;
+  width: 90%;
+}
+
+/* The User Profile Button */
+#header-profile-button-container {
+  display: flex;
+  width: 10%;
+  border-radius: 50%;
+}
+
+#header-profile-button-img {
+  display: flex;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+}
+
+/* The log out button */
+#header-logout-button-container {
+  display: flex;
+  width: 13%;
+  height: 30%;
+  color: var(--onSecondary);
+}
+
+#header-logout-button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  border: 3px solid var(--secondary);
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+#header-logout-button-content:hover {
+  background-color: var(--secondary);
+}
+
+/* Header login and log out button for unlogged users */
+#header-unlogged-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+  list-style: none;
+}
+
+.header-unlogged-nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 35%;
+  text-decoration: none;
+}
+
+.header-nav-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10%;
+  color: var(--onSecondary);
+  border: 3px solid var(--secondary);
+  transition-duration: 0.4s;
+}
+
+.header-nav-content:hover {
+  background-color: var(--secondary);
+}

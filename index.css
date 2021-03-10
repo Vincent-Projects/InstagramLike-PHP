@@ -1,0 +1,37 @@
+/** ################################################
+  *                     COLORS VARIABLES
+  * ################################################ */
+:root {
+  --primary: #ffffff;
+  --primaryDark: #ececec;
+  --primaryLight: #ffffff;
+  --secondary: #ffecb3;
+  --secondaryDark: #000;
+  --secondaryLight: #000;
+  --onPrimary: #000000;
+  --onSecondary: #212121;
+  --background: #f2f2f2;
+  --surface: #ffffff;
+  --error: #B00020;
+  --gray-border: #D8D8D8;
+  --black-border: #2a2c2c;
+}
+
+
+/** ################################################
+  *                     CSS STYLING
+  * ################################################ */
+body {
+  margin: 0;
+  background-color: var(--background);
+}
+
+/** ################################################
+  *                     COMMON CLASS
+  * ################################################ */
+.straight {
+  margin-left: 20%;
+  margin-right: 20%;
+  border-left: 1px solid var(--gray-border);
+  border-right: 1px solid var(--gray-border);
+}

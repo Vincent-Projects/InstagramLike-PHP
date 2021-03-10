@@ -1,0 +1,145 @@
+/** #############################################
+  * This is the css for the profile screen
+  * @author Vincent Rouilhac, Simon Cardoso
+  * ############################################# */
+
+#body {
+  align-items: center;
+  justify-content: center;
+}
+
+/**
+  * PROFILE USERS IMAGE
+  */
+#profile-image {
+  display: flex;
+  position: relative;
+  top: 10px;
+  left: 45%;
+  margin-bottom: 2%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+#profile-image:hover {
+  filter: blur(5px) brightness(80%);
+}
+
+#profile-image-modify {
+  display: flex;
+  position: relative;
+  top: -100px;
+  left: 49%;
+  color: black;
+  opacity: 0%;
+}
+
+#profile-image-modify:hover {
+  opacity: 100%;
+}
+
+/**
+  * USERS OWNER FEED BAR
+  */
+#profile-feed-bar-container {
+  margin-left: 2%;
+  margin-bottom: 5px;
+  display: flex;
+  min-height: 30px;
+  max-height: 55px;
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile-feed-bar-add-input {
+  display: flex;
+  height: 95%;
+  width: 60px;
+}
+
+#profile-feed-bar-public-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+
+#profile-feed-bar-public-text {
+
+}
+
+#profile-feed-bar-public-input {
+  display: flex;
+  height: 95%;
+  width: 60px;
+  margin: 5;
+}
+
+/**
+  * USERS FEED
+  */
+
+/* The container of the whole images */
+#profile-feed-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* The container of each image */
+.profile-feed-image-container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-feed-image-container:hover .profile-feed-image-like-container {
+  opacity: 100%;
+}
+
+.profile-feed-image-container:hover .profile-feed-image {
+  filter: blur(10px) brightness(70%);
+}
+
+/* The touchable, container of img */
+.profile-feed-image-touchable {
+  display: flex;
+  position: relative;
+}
+
+/* The img */
+.profile-feed-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* The container of like */
+.profile-feed-image-like-container {
+  display: flex;
+  opacity: 0%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The like img */
+.profile-feed-image-like-icon {
+
+}
+
+/* The like number */
+.profile-feed-image-like-text {
+  font-size: 2.5em;
+}
